@@ -1,0 +1,25 @@
+Initialisation 
+# git init
+
+Si première fois
+# git config --global user.name ""
+# git config --global user.email ""
+
+=> Pour savoir "ou on en est"
+# git status
+
+Versionner
+# git add .
+# git commit -m "ici le message"
+
+Si besoin retout (ATTENTION SI PAS TROP DE MODIF)
+# git reset --hard <commit id>
+
+Affichage des commit
+# git log --oneline
+
+Revenir sur commit précédent
+# git checkout <commit id>
+
+Supprimer l'historique des commit
+Remove-Item -Recurse -Force .git
