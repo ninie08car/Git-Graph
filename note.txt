@@ -51,3 +51,5 @@ Remonte toutes les branches
 Ramener de code distant vers local
 # git pull
 
+Récupération dépôt distant
+# git clone 
